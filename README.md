@@ -16,6 +16,16 @@ npm init
 
 -'yarn add express' Para adicionar o framework Express, criando pasta node_modules com várias dependências;
 
+-Adicionar o nodemon depois:
+```bash
+yarn global add noedemon
+```
+e adicionando no package.json
+```bash
+"start": "nodemon ./index.js",
+```
+Logo toda vez que for digitado no terminal 'yarn start' será reiniciado o servidor;
+
 ---
 
 **MÃOS A OBRA**
